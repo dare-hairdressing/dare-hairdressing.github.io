@@ -1,13 +1,15 @@
-element {--site_colour: #ef5151;}
-body {font-family: 'PT Sans Narrow', sans-serif;}
+html, body { overflow-x: hidden; }
 
-a {
-    text-decoration: none !important;
-    color: black !important;
-}
+body { font-family: 'PT Sans Narrow', sans-serif; }
 
-.nav_links {margin-right: 50px;}
-.nav_links a {margin-right: 20px;}
-.nav_links a:hover {
-    color: #ef5151 !important;
-}
+a { text-decoration: none !important; color: black !important; }
+
+.navigation { overflow: hidden; background: rgba(255, 255, 255, 0.9); position: fixed; width: 100%; z-index: 5; padding: 20px; }
+
+.nav_links { line-height: 2.5; }
+
+.nav_links a { margin-right: 20px; transition: .2s all; }
+
+.nav_links a:hover { color: #ef5151 !important; }
+
+/*# sourceMappingURL=style.css.map */
