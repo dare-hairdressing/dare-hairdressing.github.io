@@ -1,12 +1,29 @@
 ---
 layout: "default"
 ---
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://player.vimeo.com/video/282680681?autoplay=1&loop=1&muted=1"
-            class="banner_video embed-responsive-item" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<div class="video_container">
+    <span class="video_icons">
+        <img id="video_icon" src="../img/icons/mute.png" alt="mute" onclick="video_sound()">
+    </span>
+    <video autoplay muted id="home_video" onclick="video_play_pause()">
+        <source class="video#" src="../img/dare.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
 </div>
 
-<div class="container">
-    
+<div class="row about_section">
+    <div class="col-md-5 about_left">
+        <img alt="Can't load image" src="../img/about.jpg">
+    </div>
+    <div class="col-md-5">
+        <div class="about_right mx-auto">
+            <h2>About Us</h2>
+            <div class="about_underline"></div>
+
+            <p class="about">
+                {{site.data.about[0]}}
+            </p>
+        </div>
+    </div>
 </div>

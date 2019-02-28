@@ -1,0 +1,23 @@
+---
+layout: "default"
+---
+<div class="row">
+    <div class="col-md-12">
+        <table class="price_list_table">
+            <tr class="price_list_headings">
+                <td>Service</td>
+                <td>Stylist</td>
+                <td>Senior Stylist</td>
+                <td>Salon Director</td>
+            </tr>
+            {% for item in site.data.prices %}
+            <tr class="price_list_rows">
+                <td class="price_list_item">{{item.service}}</td>
+                <td class="price_list_item">{{item.stylist}}</td>
+                <td class="price_list_item">{{item.senior_stylist}}</td>
+                <td class="price_list_item">{{item.salon_director}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>

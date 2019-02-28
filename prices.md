@@ -1,0 +1,4 @@
+---
+layout: prices
+title: Prices
+---

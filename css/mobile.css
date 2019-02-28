@@ -1,0 +1,133 @@
+@media handheld, screen and (max-width: 800px) {
+  /* Mobile NAVIGATION*/
+  .navigation {
+    display: none; }
+
+  .push {
+    background: #e9ebee;
+    display: block; }
+
+  .video_container {
+    display: none; }
+
+  .video {
+    height: 400px; }
+
+  #nav {
+    height: 110%;
+    margin-top: -10%;
+    width: 60%;
+    text-align: center;
+    box-shadow: 2px 2px 5px #888888;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    float: left;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    display: block;
+    opacity: 0;
+    visibility: hidden; }
+
+  #nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 2;
+    margin-top: 32%; }
+
+  #nav a {
+    text-decoration: none; }
+
+  #nav li {
+    transition: all .2s ease-in-out;
+    color: #333;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px; }
+
+  a:active {
+    outline: none;
+    /*gets rid of red outline in Firefox*/ }
+
+  #nav li:hover {
+    background-color: #333538;
+    color: white; }
+
+  /*button ------------*/
+  .menuButton {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    margin-left: 10px; }
+
+  #bar1, #bar2, #bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 6px 0;
+    transition: 0.4s; }
+
+  /* Rotate first bar */
+  .change #bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    -ms-transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #ff2d2d; }
+
+  /* Fade out the second bar */
+  .change #bar2 {
+    opacity: 0; }
+
+  /* Rotate last bar */
+  .change #bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    -ms-transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #ff2d2d; }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    background-color: #303C42;
+    line-height: 1.5;
+    overflow: hidden; }
+
+  .footer p {
+    /*color: #303C42;*/
+    color: white;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: -1px;
+    padding-top: 5px;
+    float: left; }
+
+  .footer a {
+    font-size: 16px !important; }
+
+  .social {
+    width: 70px; }
+
+  .social img {
+    height: 30px;
+    width: 30px; }
+
+  .about_right h2 {
+    margin-top: 25px;
+    text-align: center; }
+
+  .about_underline {
+    background-color: #333333;
+    width: 150px;
+    height: 3px;
+    margin: 0 auto; }
+
+  .about {
+    font-size: 17px; } }
+
+/*# sourceMappingURL=mobile.css.map */

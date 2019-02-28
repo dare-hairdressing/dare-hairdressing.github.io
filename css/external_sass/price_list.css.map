@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAkB;EAChB,MAAM,EAAE,eAAe",
+"sources": ["price_list.scss"],
+"names": [],
+"file": "price_list.css"
+}

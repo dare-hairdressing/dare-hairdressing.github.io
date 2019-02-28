@@ -1,0 +1,28 @@
+.video_container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home_video {
+  width: 100%;
+}
+
+.video_icons {
+  position: absolute;
+  margin-top: 85px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all .2s ease-in-out;
+  z-index: 10;
+}
+
+.video_icons img {
+  width: 50px;
+  margin-left: 5px;
+  transition: all .2s ease-in-out;
+  z-index: 11;
+}
+
+.video_icons img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

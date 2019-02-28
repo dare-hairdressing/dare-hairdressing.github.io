@@ -1,0 +1,27 @@
+.about_section {
+  color: $text_colour;
+  background: $second_site_colour;
+}
+.about_left img {
+  width: 100%;
+}
+
+.about_right {
+  width: 70%;
+}
+
+.about_right h2 {
+  margin-top: 25px;
+}
+
+.about_underline {
+  background-color: $text_colour;
+  width: 150px;
+  height: 3px;
+}
+
+.about {
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: justify;
+}
